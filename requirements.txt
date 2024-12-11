@@ -1,8 +1,8 @@
 #altair==5.0.1
-annotated-types==0.6.0
-anyio==4.6.2
+#annotated-types==0.6.0
+#anyio==4.6.2
 #arrow-cpp==16.1.0
-attrs==24.2.0
+#attrs==24.2.0
 #aws-c-auth==0.6.19
 #aws-c-cal==0.5.20
 #aws-c-common==0.8.5
