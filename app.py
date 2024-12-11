@@ -109,7 +109,7 @@ def analizar_sentimientos_json(respuesta_formateada, emociones):
         # Intenta cargar la respuesta como JSON
         emociones = json.loads(respuesta_formateada)
 
-        # Asegúrate de que la estructura es correcta
+        # corrobora de que la estructura es correcta
         if 'emociones' in emociones:
             return emociones['emociones']
         else:
@@ -123,8 +123,7 @@ st.write('<hr>', unsafe_allow_html=True)
 st.write("<h1 style='color: #66b3ff;font-size: 28px;'>Análisis Textual:</h1>", unsafe_allow_html=True)
 
 
-# Título principal
-st.title("Análisis de sentimientos en texto")
+
 
 # Barra lateral para seleccionar secciones
 section = st.sidebar.selectbox(
@@ -132,10 +131,11 @@ section = st.sidebar.selectbox(
     ['Análisis textual', 'Análisis con valores']
 )
 
+
 #contenido basico de cada seccion
 
 if section == 'Análisis textual':
-
+    st.title("Análisis de sentimientos en texto")
     with st.container():
         try:
             texto_a_analizar = st.text_area("Ingrese el texto que quiere analizar:")
@@ -154,11 +154,11 @@ if section == 'Análisis textual':
 
         st.divider()
 
-    #st.write('Aca va el analisis textual')
+
 
     # En la sección 'Análisis con valores':
 elif section == 'Análisis con valores':
-
+    st.title("Análisis con valores de emociones")
     with st.container():
         try:
             texto_a_analizar = st.text_area("Ingrese el texto que quiere analizar:")
@@ -220,7 +220,7 @@ elif section == 'Análisis con valores':
         except Exception as e:
             st.error(f"Acceso Denegado: {e}")
 
-    #st.write('aca va el analisis con valores')
+
 
 
 # Verificar si la API key está en la sesión
