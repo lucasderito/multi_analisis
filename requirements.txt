@@ -17,13 +17,13 @@
 #aws-crt-cpp==0.18.16
 #aws-sdk-cpp==1.10.55
 #blas==1.0
-blinker==1.6.2
+#blinker==1.6.2
 #boost-cpp==1.82.0
-bottleneck==1.4.2
+#bottleneck==1.4.2
 #brotli==1.0.9
 #brotli-bin==1.0.9
 #brotli-python==1.0.9
-bzip2==1.0.8
+#bzip2==1.0.8
 c-ares==1.19.1
 ca-certificates==2024.11.26
 cachetools==5.3.3
