@@ -20,9 +20,9 @@
 blinker==1.6.2
 #boost-cpp==1.82.0
 bottleneck==1.4.2
-brotli==1.0.9
-brotli-bin==1.0.9
-brotli-python==1.0.9
+#brotli==1.0.9
+#brotli-bin==1.0.9
+#brotli-python==1.0.9
 bzip2==1.0.8
 c-ares==1.19.1
 ca-certificates==2024.11.26
