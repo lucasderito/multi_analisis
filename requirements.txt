@@ -1,4 +1,4 @@
-altair==5.0.1
+#altair==5.0.1
 annotated-types==0.6.0
 anyio==4.6.2
 arrow-cpp==16.1.0
